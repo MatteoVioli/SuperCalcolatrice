@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalcolatriceApp"
+             x:Class="CalcolatriceApp.MainPage">
+
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btn_numero7" Grid.Row="5" Grid.Column="0" FontSize="30" Text="7"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero8" Grid.Row="5" Grid.Column="1" FontSize="30" Text="8"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero9" Grid.Row="5" Grid.Column="2" FontSize="30" Text="9" BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero4" Grid.Row="6" Grid.Column="0" FontSize="30" Text="4"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero5" Grid.Row="6" Grid.Column="1" FontSize="30" Text="5"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero6" Grid.Row="6" Grid.Column="2" FontSize="30" Text="6"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero1" Grid.Row="7" Grid.Column="0" FontSize="30" Text="1"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero2" Grid.Row="7" Grid.Column="1" FontSize="30" Text="2"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero3" Grid.Row="7" Grid.Column="2" FontSize="30" Text="3"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_numero0" Grid.Row="8" Grid.Column="1" FontSize="30" Text="0"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_operazioneSomma" Grid.Row="5"  FontSize="30" Grid.Column="3" Text="+"  BackgroundColor="White"  TextColor="Black" ></Button>
+        <Button x:Name="btn_operazioneSottrazione" FontSize="30"  BackgroundColor="White" TextColor="Black" Grid.Row="6" Grid.Column="3" Text="-"></Button>
+        <Button x:Name="btn_operazionedivisione"  FontSize="30" Grid.Row="7" Grid.Column="3" Text="/"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_operazioneMoltiplicazione"  FontSize="30" Grid.Row="8" Grid.Column="3" Text="*"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="btn_operazioneRadice" Grid.Row="8"  FontSize="30" Grid.Column="2" Text="√"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="brn_Ans" Grid.Row="8"  FontSize="30" Grid.Column="0" Text="ANS"  BackgroundColor="White" TextColor="Black" ></Button>
+        <Button x:Name="brn_Uguale" Grid.Row="4"  FontSize="30" Grid.Column="3" Text="="  BackgroundColor="OrangeRed" TextColor="Black" ></Button>
+        <Button x:Name="brn_Del" Grid.Row="4"  FontSize="30" Grid.Column="2" Text="DEL"  BackgroundColor="OrangeRed" TextColor="Black" ></Button>
+        <Label x:Name="lbl_risultato" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Text="0" TextColor="White"></Label>
+
+    </Grid>
+
+</ContentPage>
